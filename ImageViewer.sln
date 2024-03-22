@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageViewer", "ImageViewer\ImageViewer.vcxproj", "{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3} = {DBDC79C2-BD60-48CB-8130-093DB23F26F3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VulkanWrapper", "VulkanWrapper\VulkanWrapper.vcxproj", "{DBDC79C2-BD60-48CB-8130-093DB23F26F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}.Debug|x64.ActiveCfg = Debug|x64
+		{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}.Debug|x64.Build.0 = Debug|x64
+		{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}.Debug|x86.Build.0 = Debug|Win32
+		{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}.Release|x64.ActiveCfg = Release|x64
+		{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}.Release|x64.Build.0 = Release|x64
+		{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}.Release|x86.ActiveCfg = Release|Win32
+		{0CA4063C-037B-4502-83EC-50ACE8D4B4A9}.Release|x86.Build.0 = Release|Win32
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3}.Debug|x64.ActiveCfg = Debug|x64
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3}.Debug|x64.Build.0 = Debug|x64
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3}.Debug|x86.Build.0 = Debug|Win32
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3}.Release|x64.ActiveCfg = Release|x64
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3}.Release|x64.Build.0 = Release|x64
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3}.Release|x86.ActiveCfg = Release|Win32
+		{DBDC79C2-BD60-48CB-8130-093DB23F26F3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DC05E77-9E09-426A-A44F-8A97B6F7769D}
+	EndGlobalSection
+EndGlobal
